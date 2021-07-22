@@ -1,6 +1,8 @@
 import androids from './android';
 import cameras from './camera';
 import laptops from './laptop';
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 const fakeData = [...androids, ...cameras, ...laptops];
 
